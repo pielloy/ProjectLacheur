@@ -3,13 +3,18 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MultiDimentionalMap.generated.h"
 
 /**
  * 
  */
-class PROJECTLACHEUR_API MultiDimentionalMap
+
+UCLASS(BlueprintType)
+class PROJECTLACHEUR_API UMultiDimentionalMap : public UObject
 {
-public:
-	MultiDimentionalMap();
-	~MultiDimentionalMap();
+	GENERATED_BODY()
+	public:
+		UMultiDimentionalMap();
+		~UMultiDimentionalMap();
+
 };

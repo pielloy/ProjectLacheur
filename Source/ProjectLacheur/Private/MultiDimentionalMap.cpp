@@ -3,10 +3,10 @@
 
 #include "MultiDimentionalMap.h"
 
-MultiDimentionalMap::MultiDimentionalMap()
+UMultiDimentionalMap::UMultiDimentionalMap()
 {
 }
 
-MultiDimentionalMap::~MultiDimentionalMap()
+UMultiDimentionalMap::~UMultiDimentionalMap()
 {
 }
